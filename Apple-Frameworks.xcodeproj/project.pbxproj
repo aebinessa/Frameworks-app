@@ -14,6 +14,7 @@
 		41B557222C6DEA0500561DED /* FrameWorkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B557212C6DEA0500561DED /* FrameWorkGridView.swift */; };
 		41B557242C6E050E00561DED /* IndiFrameWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B557232C6E050E00561DED /* IndiFrameWorkView.swift */; };
 		41B557262C6E0A2800561DED /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B557252C6E0A2800561DED /* AFButton.swift */; };
+		41B557282C6E19FC00561DED /* FrameWorkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B557272C6E19FC00561DED /* FrameWorkGridViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		41B557212C6DEA0500561DED /* FrameWorkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridView.swift; sourceTree = "<group>"; };
 		41B557232C6E050E00561DED /* IndiFrameWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiFrameWorkView.swift; sourceTree = "<group>"; };
 		41B557252C6E0A2800561DED /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		41B557272C6E19FC00561DED /* FrameWorkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameWorkGridViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				41B557112C6DE6FA00561DED /* Apple_FrameworksApp.swift */,
 				41B557212C6DEA0500561DED /* FrameWorkGridView.swift */,
+				41B557272C6E19FC00561DED /* FrameWorkGridViewModel.swift */,
 				41B557232C6E050E00561DED /* IndiFrameWorkView.swift */,
 				41B557252C6E0A2800561DED /* AFButton.swift */,
 				41B5571F2C6DE77C00561DED /* FrameWork.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B557222C6DEA0500561DED /* FrameWorkGridView.swift in Sources */,
+				41B557282C6E19FC00561DED /* FrameWorkGridViewModel.swift in Sources */,
 				41B557202C6DE77C00561DED /* FrameWork.swift in Sources */,
 				41B557122C6DE6FA00561DED /* Apple_FrameworksApp.swift in Sources */,
 				41B557262C6E0A2800561DED /* AFButton.swift in Sources */,

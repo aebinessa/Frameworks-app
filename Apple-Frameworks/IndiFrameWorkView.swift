@@ -9,6 +9,9 @@ import SwiftUI
 
 
 struct IndiFrameWorkView: View {
+    
+    @Binding var isShowingDetailView: Bool
+     
     var framework: FrameWork
     var body: some View {
         VStack{
@@ -16,6 +19,7 @@ struct IndiFrameWorkView: View {
             HStack{
                 Spacer() 
                 Button{
+                    isShowingDetailView = false
                     
                 }label: {
                     Image(systemName: "xmark")
@@ -45,6 +49,6 @@ struct IndiFrameWorkView: View {
     }
 }
 #Preview {
-    IndiFrameWorkView(framework: MockData.sampleFramework).preferredColorScheme(.dark)
+    IndiFrameWorkView(isShowingDetailView: .constant(false), framework: MockData.sampleFramework).preferredColorScheme(.dark)
 }
 
